@@ -1,0 +1,332 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* , *::before, *::after{
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* el encabezado */
+header {
+  background-color: #212121;
+  min-width: 80px;
+  padding-top: 15px;
+  overflow: hidden;
+  border-bottom:#b7905a 3px solid ;
+}
+
+header img{
+  border-radius: 10px;
+  width: 100px;
+  height: 70px;
+  
+}
+.inti-coffe {
+  color: white;
+  font-size: 2.8em;
+  font-weight: bold;
+  background-color: black;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 19px;
+}
+
+.contenedor-flex-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.contenedor-flex-1 ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contenedor-flex-1 li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.contenedor-flex-1 li a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.9em;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+#banner {
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(33, 71, 118);
+}
+
+#banner img{
+  width: 30%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+#banner h1 {
+  font-size: 3.5em;
+  color: white;
+  font-weight: normal;
+  margin-top:0 ;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  transform: scale(1, 1.2);
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.ancho-contenido-banner {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ancho-contenido-banner p{
+  color: white;
+  font-size: 1.6em;
+}
+
+/* couta */
+.couta {
+  background-color: #333;
+  height: 100px;
+  color: white;
+  padding: 10px;
+  font-style: italic;
+  font-family: palatino, Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.couta span {
+  font-size: 2.0em;
+  padding-right: 25px;
+}
+
+.couta a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.6em;
+  background-color: #b7905a;
+  border-radius: 15px;
+  padding: 5px 12px
+}
+
+/* servicio */
+.contenedor-flex-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-flex-2 div{
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.7em;
+  color: #d9922f;
+  border: 1px solid;
+  min-width: 80px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-top: 5px;
+}
+/* //========================// */
+/* NOSOTROS */
+.seccion-nosotros-1 {
+  text-align: center;
+  width: 90%;
+  background-color:#b7905a ;
+  margin: 4% auto 4% auto;
+  padding: 3% 0 3% 0;
+}
+
+.seccion-nosotros-1 span {
+  color: white;
+  font-size: 30px;
+  border: 3px solid white;
+  padding:5px 10px ;
+}
+
+.seccion-nosotros-2 {
+  text-align: center;
+  width: 90%;
+  margin: 4% auto 4% auto ;
+
+}
+
+.seccion-nosotros-2 span {
+  font-size: 30px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  width: 90%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  grid-gap: 2em;
+}
+
+.grid-areas-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid-areas-2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid-areas-3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.grid-areas-4 {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+/* esterelizar la pagina */
+.grid-areas-1 li{
+  list-style: none;
+  font-size: 1.9em;
+}
+
+.grid p {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+
+.grid h2 {
+  font-size: 2.5em;
+}
+/* //===========================// */
+/* FORMULARIO */
+.contenedor-formulario {
+  width: 40%;
+  margin:auto;
+  overflow: hidden;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+.contenedor-formulario h3 {
+  color:white; 
+  font-size: 1.7em;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.formulario {
+  text-align: center;
+
+}
+
+.formulario > div {
+  padding-bottom: 20px;
+}
+
+.formulario input , textarea {
+  font-size: 1.5em;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.boton {
+  color: white;
+  background-color: #b7905a;
+  border: none;
+  border-radius: 15px;
+  font-size: 2.1em;
+  cursor: pointer;
+  padding: 5px 25px;
+}
+
+.espacio-seccion {
+  min-height: 75vh;
+  margin-bottom: 3%;
+}
+/* //=====================// */
+/* queries-medias */
+@media (max-width:768px) {
+  /* INICIO */
+  .contenedor-flex-1{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-flex-2{
+    flex-wrap: wrap;
+  }
+  
+  /* NOSOTROS */
+  .grid-areas-4{
+    display: none;
+  }
+  
+  .grid {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+  }
+
+  /* CONTACTO */
+  .contenedor-formulario {
+    width: 65%;
+    padding: 2%;
+  }
+
+  /* BUTTON */
+  .boton {
+    font-size: 1.5em;
+    padding: 5px 30px;
+  }
+}
+
+/* //=========================// */
+/* SEUDO-CLASES */
+/* :hover;
+   :link;
+   :visited;
+   :active; */
+
+.contenedor-flex-1 ul a:hover {
+  color:red;
+}
+/* //========================// */
